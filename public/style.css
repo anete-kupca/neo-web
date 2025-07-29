@@ -12,7 +12,7 @@ h1 {
   text-align: center;  
 }
       
-p {
+p,ul,li {
   color: #E1C88E;
   font-size: 16px;
 }
@@ -20,12 +20,4 @@ p {
 .intro {
  font-size: 18px;
  text-align: center;
-}
-      
-.text {
-  font-size: 16px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 10px;
-  color: #E1C88E
 }

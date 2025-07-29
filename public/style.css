@@ -1,5 +1,5 @@
 body {
-  background: bg;
+  background-image: url("/assets/bg.jpg");
   font-family: Courier;
   border-right-style: solid;
   border-left-style: solid;
@@ -49,7 +49,7 @@ h1 {
   text-align: center;  
 }
       
-p {
+p,ul,li {
   color: #E1C88E;
   font-size: 16px;
 }
@@ -61,5 +61,11 @@ p {
 
 ul li::marker{
   content: ">";
-  color: #3c1b0f;
+  color: #E1C88E;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+a {
+  color: #E1C88E;
 }

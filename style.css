@@ -1,0 +1,31 @@
+body {
+  background: #7E2625;
+  font-family: Courier;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: 3px;
+}
+      
+h1 {
+  color: #E1C88E;
+  font-size: 30px;
+  text-align: center;  
+}
+      
+p {
+  color: #E1C88E;
+  font-size: 16px;
+}
+  
+.intro {
+ font-size: 18px;
+ text-align: center;
+}
+      
+.text {
+  font-size: 16px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  color: #E1C88E
+}

@@ -70,3 +70,12 @@ a {
   color: #E1C88E;
   text-decoration: none;
 }
+
+me {
+  width: 100px;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+}

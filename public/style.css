@@ -79,3 +79,54 @@ a {
   right: 0;
   z-index: 9999;
 }
+
+
+.music-wrap {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  z-index: 9999;
+}
+
+.note {
+  position: absolute;
+  width: 25px;
+  height: auto;
+  opacity: 0.8;
+  animation: float 3s ease-in-out infinite;
+}
+
+.note1 {
+  left: -70px;
+  bottom: 210px;
+  animation-delay: 0s;
+}
+
+.note2 {
+  left: -1px;
+  bottom: 200px;
+  animation-delay: 1s;
+}
+
+.note3 {
+  left: -100px;
+  bottom: 170px;
+  animation-delay: 2s;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-10px) scale(1.1) rotate(10deg);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-20px) scale(1) rotate(-10deg);
+    opacity: 0;
+  }
+}
